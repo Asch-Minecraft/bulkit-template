@@ -1,0 +1,9 @@
+[versions]
+bulkit-api = "0.1.0-alpha"
+neoforged-moddev = "2.0.42-beta"
+
+[libraries]
+bulkit-api = { module="org.asch.bulkit.api:bulkit-api", version.ref="bulkit-api" }
+
+[plugins]
+neoforged-moddev = { id="net.neoforged.moddev", version.ref="neoforged-moddev" }
